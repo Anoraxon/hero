@@ -1,0 +1,257 @@
+
+@import url(font.css);
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+     list-style: none;
+    text-decoration: none;
+}
+
+/* nav start */
+.nav{
+    background: #926FF6;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__logo{
+  text-align: center;
+}
+
+.nav__item{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: 'Poppins-ExtraBold';
+    padding: 48px;
+}
+
+.ul__list{
+    display: flex;
+    column-gap: 32px;
+}
+
+.li__link{
+    color: #FFFFFF;
+    font-family: 'Poppins-Regular';
+    font-size: 11px; 
+    padding: 50px 32px;
+}
+
+.logo-item{
+    color: #FFE074;
+    font-family: 'Poppins-ExtraBold';
+    font-size: 12px; 
+}
+
+.logo-subtitle{
+    color: #FFFFFF;
+    font-family: 'Poppins-ExtraBold';
+    font-size: 62px; 
+}
+
+.logo-item1{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Poppins-Light';   
+}
+
+.logo-img{
+    width: 52px;
+    padding: 36px 0 105px;
+}
+
+/* nav end */
+
+/* section start */
+
+.about__first{
+    display: flex;
+    
+}
+
+.first__title{
+    color: #FFE074;
+    font-family: 'Poppins-ExtraBold';
+    font-size: 12px;
+    padding: 164px 376px 15px 254px;   
+}
+
+.first__item{
+    color: #4F4F4F;
+    font-family: 'Poppins-Medium';
+    font-size: 24px;
+    padding: 0 72px 31px 254px;
+}
+
+.first__subtitle{
+    color: #4F4F4F;
+    font-family: 'Poppins-Light';
+    font-size: 16px;
+    padding: 0 118px 52px 254px;
+}
+
+.first__img{
+    padding: 0 374px 189px 254px;
+}
+
+.right__img{
+    padding: 164px 255px 105px 118px;
+}
+
+.about__second{
+    background:  #FFFFFF;
+    width: 931px;
+    display: flex;
+}
+
+.second-img{
+    padding: 0 230px 17px 150px;
+    width: 54px;
+}
+
+.second-title{
+    color: #4F4F4F;
+    font-family: 'Poppins-Medium';
+    font-size: 16px;
+    padding: 0 157px 10px 125px;
+}
+
+.second-subtitle{
+    color: #4F4F4F;
+    font-family: 'Poppins-Light';
+    font-size: 12px; 
+    padding: 0 60px 73px 76px;
+}
+
+.about__content{
+    margin-left: 254px;
+}
+
+.about__content-title{
+    color: #FFAE00;
+    font-family: 'Poppins-Bold';
+    font-size: 12px;
+    padding: 0 22px;
+}
+
+.about__content-item{
+    color: #4F4F4F;
+    font-family: 'Poppins-Medium';
+    font-size: 24px;
+    padding: 15px 22px;
+}
+
+.about__content-list{
+    display: flex;
+    column-gap: 26px;
+    padding: 17px 22px;
+    padding-bottom: 44px;
+} 
+
+.about__content-link{
+    color: #828282;
+    font-family: 'Poppins-Regular';
+    font-size: 11px;
+    transition: 0.5s;
+    padding: 5px 18px;
+}
+
+.about__content-link:hover{
+ background: #F3849F;
+border-radius: 26px;
+color: #FFFFFF;
+}
+
+.about__item{
+   margin-left: 254px;
+}
+
+.about__fourth{
+    background: #F7EEFF;
+    margin-top: 215px;
+    width: 100%;
+}
+
+.fourth__title{
+    color:  #FFAE00;
+    font-family: 'Poppins-Bold';
+    font-size: 12px;
+    text-align: center;
+    padding-top: 114px;
+}
+
+.fourth__item{
+    color: #4F4F4F;
+    font-family: 'Poppins-Medium';
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 58px;
+}
+
+.fourth__cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourth__card-title1{
+    color: #F3849F;
+    font-family: 'Poppins-Bold';
+    font-size: 10px;
+    padding: 10px;
+}
+
+.fourth__card-subtitle{
+    color: #a59696;
+    font-family: 'Poppins-Medium';
+    font-size: 12px;
+    line-height: 17px;
+    padding-bottom: 167px;
+}
+
+.fourth__card-title2{
+    color: #926FF6;
+    font-family: 'Poppins-Bold';
+    font-size: 10px;
+    padding: 10px;
+}
+
+.fourth__card-title3{
+    color: #79CFFF;
+    font-family: 'Poppins-Bold';
+    font-size: 10px;
+    padding: 10px;
+}
+
+/* section end */
+
+
+/* footer start */
+
+.footer{
+    background: #333333;
+}
+
+.footer__item{
+    color: #F7EEFF;
+   text-align: center;
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    padding: 51px;
+}
+
+.footer__img{
+  padding: 0 716px 52px 650px;
+}
+
+
+/* footer end */
